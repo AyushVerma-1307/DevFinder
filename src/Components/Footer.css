@@ -1,0 +1,27 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    width: 741.99px;
+    padding-bottom: 28px;
+}
+
+.footer-text {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* MEDIA QUERIES TABLET  */
+
+@media (max-width: 879px) {
+    .title-container {
+        width: 583px;
+    }
+}
+
+/* MEDIA QUERIES MOBILE */
+
+@media (max-width: 621px) {
+    .title-container {
+        width: 327px;
+    }
+}

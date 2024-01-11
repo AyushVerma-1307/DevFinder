@@ -1,0 +1,184 @@
+.profile-card {
+  padding: 40px;
+  border-radius: 10px;
+  height: 444px;
+  display: flex;
+}
+
+.title-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.git-title {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.handle {
+  color: #0079ff;
+  padding-bottom: 15px;
+}
+
+.bio-container {
+  margin: 15px 0;
+}
+
+.bio {
+  font-size: 15px;
+  color: #4b6a9b;
+}
+
+.stat-title {
+  color: #4b6a9b;
+  font-size: 13px;
+}
+
+.numbers {
+  color: #2b3442;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 92px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  height: 85px;
+  width: 480px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.link-container {
+  display: flex;
+  width: 250px;
+  padding: 10px;
+  overflow: hidden;
+}
+.link-text {
+  padding: 0 10px;
+  color: #4b6a9b;
+  text-decoration: none;
+}
+
+.twitter-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-side-card {
+  margin-right: 46px;
+}
+
+img {
+  height: 16px;
+  width: auto;
+}
+
+.profile-image {
+  height: 118px;
+  width: 116px;
+  background-size: contain;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+
+.not-available {
+  color: #a5b4cc;
+}
+.name-handle-date-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  padding-top: 9px;
+}
+
+/* MEDIA QUERIES TABLET  */
+
+@media (max-width: 879px) {
+  .profile-card {
+    height: 481px;
+    width: 583px;
+    display: block;
+    position: relative;
+  }
+
+  .name-handle-date-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+  }
+
+  .handle {
+    padding: 0;
+  }
+
+  .date {
+    padding: 0;
+  }
+
+  .stats {
+    width: 493px;
+  }
+}
+
+/* MEDIA QUERIES MOBILE */
+
+@media (max-width: 621px) {
+  .profile-card {
+    width: 327px;
+    padding: 25px;
+  }
+
+  .git-title {
+    font-size: 16px;
+  }
+
+  .profile-image {
+    height: 70px;
+    width: 70px;
+  }
+
+  .profile-text {
+    font-size: 13px;
+  }
+
+  .date {
+    font-size: 13px;
+  }
+
+  .name-handle-date-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 28px;
+    left: 120px;
+  }
+
+  .stats {
+    width: 279px;
+    height: 85px;
+    padding: 20px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+  }
+}
