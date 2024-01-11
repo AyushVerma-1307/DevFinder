@@ -11,7 +11,7 @@ import axios from "axios";
 import Footer from "./Components/Footer";
 
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const themeToggler = () => {
     theme === "light" ? setTheme("dark") : setTheme("light");
   };
