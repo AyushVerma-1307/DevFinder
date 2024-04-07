@@ -31,4 +31,4 @@ DevFinder is a tool designed to retrieve and display comprehensive details about
 
 ## Screenshot
 
-![DevFinder](image_url)
+![DevFinder](https://github.com/AyushVerma-1307/DevFinder/blob/main/src/Assets/screenshot.PNG?raw=true)
